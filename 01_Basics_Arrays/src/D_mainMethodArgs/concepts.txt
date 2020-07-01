@@ -1,0 +1,7 @@
+PASO DE ARGUMENTOS AL MÉTODO MAIN
+
+Se le pueden pasar argumentos al método main, que son parámetros que se le proporcionan al inicio de la ejecución del programa.
+
+Para compilar desde la línea de comandos, se usa el comando javac, seguido de la clase a compilar: javac MiClase
+
+Para ejecutar la aplicación desde la línea de comandos, se usa el comando java, segudo de la clase compilada: java MiClase
