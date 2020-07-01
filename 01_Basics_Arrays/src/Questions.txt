@@ -1,0 +1,34 @@
+1.- El número especificado para referirse a un elemento específico de un arreglo se conoce como el _____ de un arreglo
+    a) Número de identificación
+    b) Índice
+    c) Posición
+
+2.- Un arreglo que utiliza dos subíndices se conoce como un arreglo: C
+    a) Multidimensional
+    b) Unidimensional
+    c) Bidimensional
+    d) Ninguna de las anteriores
+
+3.- Los argumentos de linea de comandos se almacenan en: B
+    a) La Java Virtual Machine
+    b) El arreglo de Strings pasado al método main y llamado args por convención
+    c) El arreglo args que puede ser invocado desde cualquier método de la clase
+
+4.- Dado el comando java MiClase prueba, el primer argumento de la línea de comando es: A
+    a) prueba
+    b) MiClase
+    c) Los argumentos no se pasan de esa manera, sino que necesitan separarse por comas
+
+5.- Un ____ en la lista de parámetros de un método indica que el método puede recibir un número variable de argumentos: B
+    a) Símbolo ?
+    b) Símbolo elipsis (...)
+    c) Símbolo +
+
+6.- Los argumentos de longitud variable se representan internamente como: C
+    a) Una colección de objetos
+    b) Un objeto de tipo VarArgs
+    c) Un arreglo
+
+7.- Un arreglo puede guardar muchos tipos distintos de valores: Falso
+
+8.- El índice de un arreglo de ser de tipo int o un tipo que pueda ser convertido en int por medio del casting: Verdadero
