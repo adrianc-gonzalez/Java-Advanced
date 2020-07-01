@@ -1,0 +1,5 @@
+ARGUMENTOS DE LONGITUD VARIABLE
+
+Con la lista de argumentos de longitud variable podemos crear métodos que reciben un número no especificado de argumentos.
+
+Java trata a esta lista de argumentos como un arreglo cuyos elementos son del mismo tipo.
