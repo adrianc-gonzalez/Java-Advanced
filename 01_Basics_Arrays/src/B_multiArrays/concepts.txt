@@ -1,0 +1,23 @@
+Arreglos Multidimensionales.
+
+Los arreglos multidimensionales pueden tener más de dos dimensiones.
+
+Los arreglos de dos dimensiones se utilizan para representar tablas con valores, con datos ordenados en filas y columnas. Para ello se deben especififcar dos índices.
+
+Por convención, el primer índice identifica la fila y el segundo índice identifica la columna.
+
+int[][] arregloMultidimensional = {{1,2},{3,4}, {5,6}, {7,8}};
+arregloMultidimensional[0][0]; --> igual a 1
+arregloMultidimensional[0][1]; --> igual a 2
+arregloMultidimensional[1][0]; --> igual a 3
+arregloMultidimensional[1][1]; --> igual a 4
+arregloMultidimensional[2][0]; --> igual a 5
+arregloMultidimensional[2][1]; --> igual a 6
+
+int[][] b = new int[3][4]; --> arreglo bidimensional de 3 filas y 4 columnas
+
+Si deseamos declarar un arreglo multidimensional utilizando el operador 'new', pero con diferentes números de filas, tendremos que realizarlo de la siguiente manera:
+
+int[][] c = new int[2];
+c[0] = new int[5];
+c[1] = new int[6];

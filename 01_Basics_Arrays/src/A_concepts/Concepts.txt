@@ -1,0 +1,27 @@
+Un arreglo es un grupo de variables, también conocidos como elementos del arreglo o componentes del arreglo que contienen valores que todos tienen que ser del mismo tipo.
+Los arreglos son objetos, por los que se consideran como tipo de referencia.
+Se accede a los valores de un array por medio de un índice.
+Para hacer referencia a un elemento específico en un arreglo, debemos especificar el nombre de la referencia del arreglo y el número de la posición del arreglo dentro del mismo.
+
+int[] c = {1,2,3,4,5,6,7,8,9,10,14,15,15,16,46,24};
+
+c[4];
+
+int a, b;
+a = 5;
+b = 6;
+
+El índice puede ser una expresión:
+c[a + b] += 2;
+c[11] += 2 -> c[11] = c[11] + 2;
+
+El índice siempre debe ser un tipo int, o bien, un tipo al que se le pueda hacer casting a tipo int. Por ejemplo, podemos convertir un bit, un short, un char a un int, pero no un tipo primitivo long.
+
+Podemos crear el arreglo de las siguientes formas:
+
+int[] c = new int[6];
+o bien:
+int{} c = {1,2,3,4,5,6};
+
+cuando se crea un array de la primera forma, internamente Java realiza esto:
+int{} c = {0,0,0,0,0,0};
