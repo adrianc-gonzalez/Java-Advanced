@@ -1,0 +1,5 @@
+LIMPIEZA DE LA PILA DE EXCEPCIONES
+
+Limpiar la pila de llamadas significa que el método en el que se atrapó la excepción termina, que todas sus variables
+locales en este método quedan fuera del alcance y que el control regresa a la instrucción que invocó originalmente a ese
+método.
