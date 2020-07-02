@@ -1,0 +1,26 @@
+CLÁUSULAS TRY/CATCH - THROWS
+
+Cuando una aplicación es tolerante a fallas, significa que dicha aplicación puede sobreponerse a este a muchos tipos de errores, a pesar de que existan esos errores o se produzcan excepciones
+en nuestros programas.
+
+Clasficiaciones:
+
+    A) checked (verifiadas): las excepciones que no deriven de la clase RuntimeException serán verificadas. Java nos obliga a tratarlas o capturarla en bloques try/catch o con la cláusulas trows.
+
+    B) unchecked (no verificadas): las excepciones que deriven de la clase RuntimeException siempre serán no verificadas. Java no nos obliga a tratarlas o capturarlas.
+
+        Existen dos formas de atenteder estas excepciones:
+            1) Mediante validaciones a través de las condicionales.
+            2) Mediante los bloques try/cacth/finally
+
+            La sintaxis para el uso de bloques try/catch/finally es la siguiente:
+
+            try {
+                /* Instrucciones que pueden producir una excepción */
+            } catch(Exception ex) {
+                /* Se captura la excepción */
+            } finally {
+                /* Se ejecuta aunque ocurran o no excepciones */
+            }
+
+La cláusula throws nos permite declarar los tipos de excepciones que pueden llegarse a producir en un momento dado en un método.
