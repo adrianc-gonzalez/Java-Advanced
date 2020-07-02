@@ -1,0 +1,24 @@
+PILA DE RASTREO O STACKTRACE
+
+Es un texto, mensaje, un clock de mensajes descriptivos que nos permite analizar y depurar nuestros programas y las causas de las excepciones que ocurrene en ellos.
+
+Cada vez que una excepción se produce, este stacktrace también es producido al mismo tiempo, independientemente de que salga por la consola de comandos o no, pero este stacktrace se produce.
+
+Nos ayuda a determinar cuales son las causas que están haciendo que nuestro programa falle.
+
+El stacktrace contiene un mensaje descriptivo que nos va a indicar el problema que ocurrió durante la ejecución del programa, va a mostrar la pila de llamadas a los métodos,
+conocida mejor como la cadena de llamadas a los métodos.
+
+Suele incluir la ruta de ejecución que condujo a la excepción, método por método.
+
+RASTREO DE LA PILA
+
+Exception in thread "main" java.lang.ArithmeticException: / by zero         --> NOMBRE DE LA EXCEPCIÓN
+	at B_rastreoPila.DivisionEntreCero.cociente(DivisionEntreCero.java:15)  --> PILA DE LLAMADAS A LOS MÉTODOS
+	at B_rastreoPila.DivisionEntreCero.main(DivisionEntreCero.java:28)
+
+Exception in thread "main" java.lang.ArithmeticException: / by zero         --> NOMBRE DE LA EXCEPCIÓN
+	at B_rastreoPila.DivisionEntreCero.cociente3(DivisionEntreCero.java:15) --> PILA DE LLAMADAS A LOS MÉTODOS
+	at B_rastreoPila.DivisionEntreCero.cociente2(DivisionEntreCero.java:19)
+	at B_rastreoPila.DivisionEntreCero.cociente(DivisionEntreCero.java:23)
+	at B_rastreoPila.DivisionEntreCero.main(DivisionEntreCero.java:36)

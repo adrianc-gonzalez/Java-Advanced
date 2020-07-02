@@ -1,0 +1,6 @@
+EXCEPCIONES
+
+Las excepciones son clases, cuyos objetos se producen cuando ocurre un error en tiempo de ejecución de un programa en Java.
+
+Tiempo de Compilación:
+    Cuando el compilador de Java analiza la sintaxis de nuestro programa y nos dice si no hay ningún problema de sintaxis.
