@@ -1,0 +1,5 @@
+LANZAMIENTO Y RELANZAMIENTO DE EXCEPCIONES
+
+Para poder lanzar una excepción con Java, usamos la sentencia throw, realiza la acción de lanzar una excepción.
+
+Para lanzar una excepción mediante throw seguido de la creación de un objeto de tipo Exception, cualquier objeto que descienda de la clase Exception o incluso que descienda de la clase Throwlable.
