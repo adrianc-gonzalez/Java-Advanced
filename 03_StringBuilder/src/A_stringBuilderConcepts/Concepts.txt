@@ -1,0 +1,21 @@
+STRING BUILDER
+
+Otra manejar cadenas de caracteres
+
+String hola = hola;
+hola = "Adios";
+hola = "Java";
+hola = "Hola" + "Mundo";
+
+En todos estos casos, se puede pensar que se está cambiando el valor de la variable. Pero en realidad los objetos String
+son inmutables, ya que la clase String, no proporciona métodos que permitan modificar el contenido de un objeto String
+después de crearlo, es decir, una vez creado el objeto String, este objeto, no cuenta con métodos que permitan modificar
+su contenido; cuando se dice que se está "cambiando" el valor de un objeto, en realidad se está creando uno nuevo.
+
+Cuando se crea una referencia, llámese "Hola", y se iguala a una cadena de texto que se llama "Hola", lo que se hace en
+realidad es que se está apuntando, se le está diciendo que la referencia "Hola" apunte a la porción de Memoria RAM donde
+está almacenada esta cadena.
+
+Cuando a la referencia "Hola" se le "cambie" el valor, lo que sucede es que, se crea otra referncia de memoria con el
+nuevo valor, y lo que cambia es la referencia a donde apunta la variable "Hola" con el nuevo valor, sucediendo que, el
+valor anterior, sigue ocupando ese espacio de memoria.
