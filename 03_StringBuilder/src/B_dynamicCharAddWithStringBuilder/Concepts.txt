@@ -1,0 +1,5 @@
+MÉTODO APPEND - STRINGBUILDER
+
+Este método, nos permite añadir más información a un objeto StringBuilder. Permite agregar valores de diversos tipos al
+final de un objeto StringBuilder. Cada método append() lo que hace es recibir el argumento, ese argumento lo convierte
+en cadena y esa cadena convertida la anexa al objeto StringBuilder.
